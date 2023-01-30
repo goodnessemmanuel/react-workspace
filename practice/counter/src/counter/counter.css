@@ -1,0 +1,27 @@
+.component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.count, .count-dispay {
+    font-size: 18px;
+    font-weight: bold;
+    width: 156px;
+    padding: 8px 0;
+    border-radius: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    border: 1px solid  #444;
+}
+
+.clickButton{
+    width: 75px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background: #03b5af;
+    box-shadow: 5px 2px 2px #444;
+}
