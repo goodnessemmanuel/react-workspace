@@ -4,16 +4,32 @@
     align-items: center;
 
 }
-.count, .count-dispay {
+.count-dispay, .btn-reset {
     font-size: 18px;
     font-weight: bold;
-    width: 156px;
+    width: 158px;
     padding: 8px 0;
     border-radius: 2px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     text-align: center;
     border: 1px solid  #444;
+}
+.count-dispay{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn-reset {
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 5px 2px 2px #444;
+    color: #077572;
+    font-weight: 700;
+
 }
 
 .clickButton{
